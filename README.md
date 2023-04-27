@@ -1,6 +1,5 @@
-# Assignment 3.1
+# Basic Version of Clash of Clans
 
-- Everything mentioned in the assignment has been implemented.
 - **Bonus** :
     - King’s Leviathan Axe has also been implemented.
     - Dragon Character has been added, it can fly over walls.
@@ -61,30 +60,3 @@
 
 q : Quit Game
 
-## Assumptions :
-
-- Rage and Heal Spell can be applied multiple times.
-- The limit for troops in each level is as follows :
-    - Barbarians : 10
-    - Archers : 7
-    - Stealth Archers: 7
-    - Balloon : 5
-    - Healers : 3
-    - Dragon : 3
-- You have to choose the type of troop movement at start of the game.
-- You have to choose the hero after each level.
-
-
-## Extensions
-
-- Stealth Archer:
-    - Does not deal direct damage (when it is targeted) for the first ten seconds after its spawned but can take indirect damage (when in vicinity of another troop which is being targeted by defensive buildings (wizard tower))
-    - Behaves like an archer after first 10 seconds after its spawned
-
-- Healer:
-    - Can heal any friendly troops within its heal distance (7 tiles)
-    - Follows the nearest troop around (heals the nearest troop when multiple troops are present)
-    - Cannot heal more than the maximum health of the troops
-    - Doesn't move when there are no troops present in the game
-
-Assumption about distance calculation - Euclidean Distance
